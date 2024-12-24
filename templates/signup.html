@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='sign.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="../assets/background/Group 35920.png" alt="">
+    </div>
+    <div class="bottom">
+        <img src="./images/login/Vector 5.svg" alt="">
+    </div>
+    <div class="outer">
+        <div class="head">
+            <div>
+                <img src="../assets/logo/2line.png" alt="">
+            </div>
+            <p>
+            <h2>Sign in to influenzio</h2>
+            </p>
+        </div>
+        <form action="/influencer-register" method="post">
+            
+            <div class="parent">
+                <div class="div1">
+                    <label for="fname">First name:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="div2">
+                    <label for="lname">Last name:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                <div class="div3">
+                    <label for="email">Email:</label>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <input type="text" id="email" name="email">
+                    
+                </div>
+                <div class="div4">
+                    <label for="pass">Password:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <div class="div5">
+                    <label for="fname">Instagram Username:</label>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <input type="text" id="instaname" name="instaname">
+                </div>
+                <div class="div6">
+                    <label for="ytname">Youtube Username:</label>
+                    <i class="fa-regular fa-circle-user"></i> 
+                    <input type="text" id="ytname" name="ytname">
+                
+                </div>
+                <div class="div7">
+                    <label for="fname">Other Platform:</label>
+                    <i class="fa-regular fa-circle-user"></i> 
+                    <input type="text" id="other" name="other">
+                
+                </div>
+                <div class="div8">
+                    <div class="submit">
+                        <button type="submit" class="gradient-border-button">sign-up</button></a>
+                    </div>
+                </div>
+                <div class="div9">
+                    <label for="follow">No. of followers:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <input type="number" name="follow" id="follow">
+                </div>
+                <div class="div10">
+                    <label for="typefollow">Type of follower:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <input type="text" name="typefollow" id="typefollow">
+                </div>
+                <div class="div11">
+                    <label for="genre">Genre:</label>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <input type="text" id="genre" name="genre">
+                </div>
+                <div class="div12">
+                    <label for="gender">Gender:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="gender" id="gender">
+                        <option value="#"></option>
+                        <option value="male">male</option>
+                        <option value="feamle">female</option>
+                        <option value="others">others</option>
+                    </select>
+                </div>
+                <div class="div13">
+                    <label for="state">Country:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="State" id="state">
+                        <option value="#"></option>
+                        <option value="India">india</option>
+                        <option value="USA">usa</option>
+                        <option value="Australia">australia</option>
+                    </select>
+                </div>
+                <div class="div14">
+                    <label for="age">Age-group:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="age" id="age">
+                        <option value="#"></option>
+                        <option value="5-15">5-15</option>
+                        <option value="16-25">16-25</option>
+                        <option value="25-40">25-40</option>
+                        <option value="41-60">41-60</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

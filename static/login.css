@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "League Spartan", serif;
+    background-color: #090014;
+    height:100vh;
+    overflow:hidden;
+    display: flex;
+    /* align-items: center; */
+
+}
+/* <----------------------------------------------------------gradient-------------------------------------------------> */
+.top{
+    position: absolute;
+    z-index:-100;
+}
+.bottom{
+    position: fixed; 
+    bottom:0;
+    right: 0;
+    z-index:-100;
+}
+/* <-------------------------------------------------------------outer box ----------------------------------------------------> */
+.outer
+{
+    border:2px solid #240047;
+    height:80vh;
+    width:30vw;
+    margin: auto;
+    border-radius: 20px;
+}
+.head{
+    text-align: center;
+    color:whitesmoke;
+	height:12rem;
+	justify-self: center;
+}
+.head img{
+    height: 10rem;
+}
+.head h2 {
+    align-items: start;
+    text-align: center;
+}
+/* <-------------------------------------------------------------------grid----------------------------------------------------------> */
+
+
+#cssportal_grid{
+    margin: 10px;
+    padding: 10px 50px;
+}
+
+/* <--------------------------------------------------------------------input--------------------------------------------------------------> */
+
+.input_field{
+    margin: 5px 0px;
+    width:100%;
+	background-color: rgba(38, 37, 37, 0.185);
+	color:white;
+	height: 33px;
+	border: 1px solid #240047;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.input_field i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 10px;
+}
+
+input{
+    color: #fff;
+    border: 1px solid #23004700;
+	background-color: #00000000;
+    z-index:10000;
+    padding: 0px 10px;
+}
+
+input:focus {
+    outline:none;
+}
+
+label{
+    margin-left: 10px;
+    color:white;
+}
+.fa-circle-user{
+	color:white;
+	pointer-events: none;
+} 
+.fa-lock{
+	color:white;
+	pointer-events: none;
+}
+
+    .register
+    {
+        margin-top: 40px;
+        color:white;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: #E828E3;
+    }
+    .remember-me {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    
+    .remember-me input[type="checkbox"] {
+        width: 16px;
+        height: 15px;
+        accent-color: #8D73FF;
+    }
+
+
+
+
+    /*----------------------------------brand styling------------------------------*/
+
+
+
+
+    .border_default{
+        border: 1px solid #240047;
+        border-radius: 10px;
+    }
+
+.gradient-border-button {
+    font-size: 15px;
+    width: 8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding:15px 20px;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#000, #000),
+        /* Inner button background */
+        linear-gradient(90deg, #8d73ff, #a66cc3);
+    /* Gradient border */
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow:
+        0 0 10px 1px rgba(0, 0, 0, 0.2),
+        0 0 10px 1px rgba(141, 115, 255, 0.242),
+        0 0 10px 1px rgba(195, 108, 191, 0.227);
+    transition: all 0.3s ease;
+}
+
+.gradient-border-button:hover {
+    box-shadow:
+        0 0 10px 1px rgba(102, 102, 102, 0.593),
+        0 0 10px 1px rgba(47, 0, 255, 0.729),
+        0 0 10px 1px rgba(255, 0, 242, 0.651);
+}
+
+.text_sec{
+    font-weight: 300;
+    font-size: 16px;
+    color: #d3d0e1;
+}
+
+#div1 ,#div2{
+    margin: 15px 0px;
+}
+
+.submit{
+    text-align: center;
+}
