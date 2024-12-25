@@ -146,7 +146,11 @@ section {
 }
 
 .gradient_text{
+<<<<<<< HEAD
     background: linear-gradient(90deg,#8D73FF,#C53CCC);
+=======
+    background: linear-gradient(90deg, #8d74ff, #8e74ff, #e667a3);
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
     /* -webkit-background-clip: text; */
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -453,6 +457,7 @@ section {
     grid-auto-columns: 100%;
     }
 }
+<<<<<<< HEAD
 /* --------------------------------------------------------How do we work------------------------------------------------ */
 .how .work
 {
@@ -649,4 +654,12 @@ section {
 .follow_us{
   margin-top:50px;
   float:right;
+=======
+
+
+/*----about_us------*/
+
+.Testimonials{
+    margin-top: 3rem;
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
 }

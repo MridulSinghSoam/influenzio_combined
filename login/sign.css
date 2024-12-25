@@ -6,6 +6,10 @@ body{
     font-family: "League Spartan", serif;
     background-color: #090014;
     height:100vh;
+<<<<<<< HEAD
+=======
+    overflow:hidden;
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
     display: flex;
     /* align-items: center; */
 
@@ -25,7 +29,11 @@ body{
 .outer
 {
     border:2px solid #240047;
+<<<<<<< HEAD
     height:auto;
+=======
+    height:90vh;
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
     width:90vw;
     /* z-index:-1000; */
     margin: auto;
@@ -46,6 +54,7 @@ body{
 }
 
 /* -----------------------------------------------------------------cssportal grid--------------------------------------------------- */
+<<<<<<< HEAD
 option {
     font-size: 14px;
     background-color: #090014;
@@ -91,13 +100,116 @@ option:hover:before {
 /* <-----------------------------------------------------styling the input-------------------------------------------> */
 input,select,button{
 	width:100%;
+=======
+#cssportal-grid {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: repeat(9, 1fr);
+	gap: 15px 30px;
+	width: 70rem;
+	height: 24rem;
+    margin-left: 8rem;
+    padding: 1rem;
+	position: relative;
+}
+#div2 {
+	grid-area: 2 / 1 / 3 / 5;
+	position: relative;
+}
+#div3 {
+	grid-area: 1 / 1 / 2 / 3;
+	position: relative;
+}
+#div4 {
+	grid-area: 1 / 3 / 2 / 5;
+	position: relative;
+
+}
+#div5 {
+	grid-area: 1 / 6 / 2 / 8;
+	position: relative;
+}
+#div6 {
+	grid-area: 1 / 8 / 2 / 10;
+    position: relative;
+}
+#div7 {
+	grid-area: 2 / 6 / 3 / 10;
+	position: relative;
+}
+#div8 {
+	grid-area: 3 / 6 / 4 / 7;
+    position: relative;
+}
+#div10 {
+	grid-area: 3 / 1 / 4 / 5;
+	position: relative;
+}
+#div11 {
+	grid-area: 4 / 1 / 5 / 3;
+    position: relative;
+}
+#div12 {
+	grid-area: 4 / 3 / 5 / 5;
+    position: relative;
+}
+#div13 {
+	grid-area: 5 / 1 / 6 / 3;
+	position: relative;
+}
+#div14 {
+	grid-area: 3 / 7 / 4 / 9;
+	position: relative; 
+}
+#div15 {
+	grid-area: 3 / 9 / 4 / 10;
+    position: relative;
+}
+#div16 {
+	grid-area: 4 / 6 / 5 / 7;
+    position: relative;
+}
+#div17 {
+	grid-area: 4 / 7 / 5 / 9;
+    position: relative;
+}
+#div18 {
+	grid-area: 4 / 9 / 5 / 10;
+	position: relative; 
+}
+#div19 {
+	grid-area: 5 / 6 / 6 / 7;
+    position: relative;
+}
+#div20 {
+	grid-area: 5 / 7 / 6 / 8;
+    position: relative;
+}
+#div21 {
+	grid-area: 5 / 8 / 6 / 9;
+    position: relative;
+}
+#div22 {
+	grid-area: 5 / 9 / 6 / 10;
+	position: relative;
+}
+/* <-----------------------------------------------------styling the input-------------------------------------------> */
+input,select,button{
+	width:90%;
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
 	background-color: rgba(38, 37, 37, 0.185);
 	color:white;
 	height: 33px;
 	border-radius: 10px;
 	border:1px solid #e1e1e12a;
+<<<<<<< HEAD
 	margin-top: 10px;
 	padding: 3px;
+=======
+	margin-top: 10px;;
+    /* z-index:10000; */
+	padding-left: 35px;
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
 }
 .button{
     text-align: center;
@@ -108,6 +220,7 @@ label{
 /* <--------------------------------------------signup button---------------------------------------------------> */
 
 label[for="age"] {
+<<<<<<< HEAD
 	display: inline-block; 
 	font-size: 1rem;
 	font-weight: bold;
@@ -128,6 +241,33 @@ label[for="age"] {
 
   }
 
+=======
+	display: block; 
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+/* <-------------------------------------------------------Adding icons-------------------------------------------------->	 */
+
+   .fa-user,.fa-circle-user,.fa-lock {
+	position: absolute;
+	left: 10px; 
+	top: 70%;
+	transform: translateY(-50%);
+	color:white;
+	pointer-events: none;
+  }
+  #div15,#div14,#div17,#div18,#div20,#div21,#div22 
+  {
+	margin-top:14px;
+  }
+  #div15 .fa-lock,#div14 .fa-lock,#div17 .fa-lock,#div18 .fa-lock,#div20 .fa-lock,#div21 .fa-lock,#div22 .fa-lock
+  {
+      top:60%;
+  }
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
 
 .form{
 	height: 20rem;
@@ -187,6 +327,12 @@ font-size: 16px;
 color: #d3d0e1;
 }
 
+<<<<<<< HEAD
+=======
+#div1 ,#div2{
+margin: 15px 0px;
+}
+>>>>>>> 97d73f6cda617b5450047b5dac66746d5d683367
 
 .submit{
 text-align: center;
