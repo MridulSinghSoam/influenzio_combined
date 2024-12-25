@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='sign.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./sign.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="../assets/background/Group 35920.png" alt="">
+    </div>
+    <div class="bottom">
+        <img src="./images/login/Vector 5.svg" alt="">
+    </div>
+    <div class="outer">
+        <div class="head">
+            <div>
+                <img src="../assets/logo/2line.png" alt="">
+            </div>
+            <p>
+            <h2>Sign in to influenzio</h2>
+            </p>
+        </div>
+        <form action="/influencer-submit" method="post">
+            
+            <div class="parent">
+                <div class="div1">
+                    <label for="fname">Company name:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                
+                <div class="div3">
+                    <label for="email">Email:</label>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <input type="text" id="email" name="email">
+                    
+                </div>
+                <div class="div4">
+                    <label for="pass">Password:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <div class="div5">
+                    <label for="follow">Budget:</label>
+                    <i class="fa-solid fa-lock" ></i>
+                    <input type="number" name="follow" id="follow">
+                </div>
+                <div class="div6">
+                    <label for="typefollow">Type of Influrencer:</label>
+                    <i class="fa-regular fa-user" ></i>
+                    <select name="typeinfluence" id="typefollow">
+                        <option value="#"></option>
+                        <option value="opt1">Nano Influencer (2k-10k)</option>
+                        <option value="opt2">Micro Influencer (10k-50k)</option>
+                        <option value="opt3">Mid Tier Influencer (50k-200k)</option>
+                        <option value="opt4">Macro Influencer (200k-500k)</option>
+                        <option value="opt5">Mega Influencer (500k-1M)</option>
+                        <option value="opt6">Celebrities (1M & above)</option>
+                        
+                    </select>
+                </div>
+                
+                <div class="div8">
+                    <div class="submit">
+                        <a href="/influencer-login"><button src="/influencer-login" class="gradient-border-button">sign-up</button></a>
+                    </div>
+                </div>
+                <div class="div10">
+                    <label for="genre">Genre:</label>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <select name="genre" id="genre">
+                        <option value="#"></option>
+                        <option value="g1">Gaming</option>
+                        <option value="g2">Food</option>
+                        <option value="g3">Travel</option>
+                        <option value="g4">Makeup</option>
+                        <option value="g5">Health</option>
+                        <option value="g6">Lifestyle</option>
+                        <option value="g7">Technology</option>
+                        <option value="g8">Education</option>
+                        <option value="g9">Animal Care</option>
+                        <option value="g10">Finance</option>
+                    </select>
+                </div>
+                <div class="div9">
+                    <label for="gender">Gender:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="gender" id="gender">
+                        <option value="#"></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="all">All</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div class="div11">
+                    <label for="state">Country:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="State" id="state">
+                        <option value="#"></option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Australia">Australia</option>
+                        <option value="UK">UK</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Italy">Italy</option>
+                        <option value="France">France</option>
+                        <option value="Romania">Romania</option>
+                    </select>
+                </div>
+                <div class="div12">
+                    <label for="age">Age-group:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <select name="age" id="age">
+                        <option value="#"></option>
+                        <option value="5-15">5-15</option>
+                        <option value="16-25">16-25</option>
+                        <option value="25-40">25-40</option>
+                        <option value="41-60">41-60</option>
+                    </select>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
