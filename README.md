@@ -20,3 +20,23 @@ An interactive web application designed to connect social media influencers with
 ├── login/               # User authentication and login pages
 ├── sign brands/         # Brand registration and onboarding flows
 └── README.md            # Project documentation
+```
+Installation & Running
+Clone the repository:
+
+Bash
+git clone [https://github.com/MridulSinghSoam/influenzio_combined.git](https://github.com/MridulSinghSoam/influenzio_combined.git)
+Navigate to the project directory:
+
+Bash
+cd influenzio_combined
+Launch the application:
+
+Open the home/ directory and double-click the main index.html file to view it in your browser.
+
+Alternative: If using VS Code, right-click the file and use the Live Server extension for real-time reloading.
+
+🤝 Contributors
+Mridul Singh Soam - Initial Work / Maintainer - @MridulSinghSoam
+
+div9ya - Contributor
